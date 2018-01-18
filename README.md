@@ -1,2 +1,3 @@
-# E-commerce
-Project for graduate in HUST
+# E-Commerce
+
+a [Sails](http://sailsjs.org) application
