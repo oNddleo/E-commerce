@@ -8,9 +8,6 @@
 module.exports = {
 
   attributes: {
-    IDUSER: {
-      type: "string"
-    },
     USERNAME: {
       type: "string"
     },

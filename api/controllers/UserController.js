@@ -9,7 +9,16 @@ module.exports = {
 	getUser: (req, res) => {
         let data = req.body;
         // resultt = add database ? 0 : 1 
-        return res => res.data
+        return res.send(data);
+    },
+    create: (req, res) => {
+        let data = req.body;
+        User.create(data).exec((err, result) => {
+            if(err){
+                
+            }
+            return res.send(result);
+        })
     }
 };
 
