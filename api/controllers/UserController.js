@@ -6,7 +6,7 @@
  */
 
 module.exports = {
-	getUser: (req, res) => {
+	get: (req, res) => {
         let data = req.body;
         // resultt = add database ? 0 : 1 
         return res.send(data);

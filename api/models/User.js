@@ -8,6 +8,15 @@
 module.exports = {
 
   attributes: {
+    // migrate: 'safe',
+    // tableName: 'user',
+    // autoPK: false,
+    IDUSER: {
+      type: 'string',
+      primaryKey: true,
+      unique: true,
+      autoIncrement: true
+    },
     USERNAME: {
       type: "string"
     },
