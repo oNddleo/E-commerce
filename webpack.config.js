@@ -15,21 +15,20 @@ module.exports = {
         filename: './assets/jsx/[name].bundle.js'
     },
     plugins: [
-        new webpack.DefinePlugin({
-            '__SERVER__': 'false',
-            '__BROWSER__': 'true', // you really only need one of these, but I like to have both
-            // 'process.env': {
-            //   'NODE_ENV': JSON.stringify('production')
-            // }
-        }),
+        // new webpack.DefinePlugin({
+        //     '__SERVER__': 'false',
+        //     '__BROWSER__': 'true', // you really only need one of these, but I like to have both
+        //     // 'process.env': {
+        //     //   'NODE_ENV': JSON.stringify('production')
+        //     // }
+        // }),
         // new webpack.optimize.UglifyJsPlugin({
         //   compressor: {
         //     warnings: false
         //   },
         // }),
         new webpack.optimize.CommonsChunkPlugin({
-            name: 'vendor',
-            Infinity
+            name: 'vendor'
         })
     ],
     resolve: {
@@ -51,7 +50,7 @@ module.exports = {
                 query: {
                     presets: ['es2015', 'react'] // cac thu vien can de webpack no hieu dc doan ma jsx html
                 },
-                test: /\.jsx?$/,    //file nao xu dung trong goi bundel
+                test: /\.js?$/,    //file nao su dung trong goi bundel
                 exclude: /node_modules/ //ngoai tru khog su dung
             },
             { test: /\.css$/, loader: 'style-loader!css-loader' }
