@@ -1,13 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-console.log('hey there!!');
-const App = () => {
-  return (
-    <div>
-      Simple Sails-React stater
-      Test Client App
-    </div>
-  );
-};
+import App from './components/App';
 
 ReactDOM.render(<App />, document.getElementById('root'));

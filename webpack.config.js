@@ -4,10 +4,13 @@ module.exports = {
     entry: {
         index: './app/index.js',
         vendor: [
+            'babel-polyfill',
             "react",
             "react-redux",
             "react-dom",
-            "redux"
+            "redux",
+            "react-router-dom",
+            "react-router"
         ],
     },
     output: {
@@ -15,13 +18,13 @@ module.exports = {
         filename: './assets/jsx/[name].bundle.js'
     },
     plugins: [
-        // new webpack.DefinePlugin({
-        //     '__SERVER__': 'false',
-        //     '__BROWSER__': 'true', // you really only need one of these, but I like to have both
+        new webpack.DefinePlugin({
+            '__SERVER__': 'false',
+            '__BROWSER__': 'true', // you really only need one of these, but I like to have both
         //     // 'process.env': {
         //     //   'NODE_ENV': JSON.stringify('production')
         //     // }
-        // }),
+        }),
         // new webpack.optimize.UglifyJsPlugin({
         //   compressor: {
         //     warnings: false
@@ -48,9 +51,9 @@ module.exports = {
             {
                 loader: 'babel-loader', //thu vien nhu 1 chuong trinh dich
                 query: {
-                    presets: ['es2015', 'react'] // cac thu vien can de webpack no hieu dc doan ma jsx html
+                    presets: ['es2015', 'react', 'stage-0'] // cac thu vien can de webpack no hieu dc doan ma jsx html
                 },
-                test: /\.js?$/,    //file nao su dung trong goi bundel
+                test: /\.jsx?$/,    //file nao su dung trong goi bundle
                 exclude: /node_modules/ //ngoai tru khog su dung
             },
             { test: /\.css$/, loader: 'style-loader!css-loader' }
