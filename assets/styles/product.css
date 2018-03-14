@@ -1,0 +1,16 @@
+/*
+    Product style
+*/
+.product{
+    height: 100%;
+}
+.product-image{
+    width: 200px;
+    height: 200px;
+}
+.product .product-price{
+    line-height: 22px;
+    height: 22px;
+    font-size: 18px;
+    color: #f57224;
+}
