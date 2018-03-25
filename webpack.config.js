@@ -56,7 +56,8 @@ module.exports = {
                 test: /\.jsx?$/,    //file nao su dung trong goi bundle
                 exclude: /node_modules/ //ngoai tru khog su dung
             },
-            { test: /\.css$/, loader: 'style-loader!css-loader' }
+            { test: /\.css$/, loader: 'style-loader!css-loader' },
+            // { test: /\.json$/, loader: 'json' },
         ]
     },
     node: {
