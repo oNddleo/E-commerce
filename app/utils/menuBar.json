@@ -1,0 +1,124 @@
+[
+    {
+        "id": "1",
+        "name": "Bán hàng cùng LIZIDI",
+        "link": "/banhangcunglizidi",
+        "submenu": null,
+        "icon": null
+    },
+    {
+        "id": "2",
+        "name": "Chăm sóc khách hàng",
+        "link": "/chamsockhachhang",
+        "icon": null,
+        "submenu": [
+            {
+                "id": "1",
+                "name": "Trung tâm hỗ trợ",
+                "link": "/trungtamhotro",
+                "icon": null
+            },
+            {
+                "id": "2",
+                "name": "Đơn hàng và thanh toán",
+                "link": "/donhangvathanhtoan",
+                "icon": null
+            },
+            {
+                "id": "3",
+                "name": "Giao hàng và nhận hàng",
+                "link": "/giaohangvanhanhang",
+                "icon": null
+            },
+            {
+                "id": "4",
+                "name": "Đổi trả hàng và hoàn tiền",
+                "link": "/doitrahangvahoantien",
+                "icon": null
+            },
+            {
+                "id": "5",
+                "name": "Tuyệt chiêu mua sắm",
+                "link": "/tuyetchieumuasam",
+                "icon": null
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Kiểm tra đơn hàng",
+        "link": "/kiemtradonhang",
+        "icon": null,
+        "submenu": [
+            {
+                "id": "1",
+                "name": "Trung tâm hỗ trợ",
+                "link": "/trungtamhotro",
+                "icon": null
+            },
+            {
+                "id": "2",
+                "name": "Đơn hàng và thanh toán",
+                "link": "/donhangvathanhtoan",
+                "icon": null
+            },
+            {
+                "id": "3",
+                "name": "Giao hàng và nhận hàng",
+                "link": "/giaohangvanhanhang",
+                "icon": null
+            },
+            {
+                "id": "4",
+                "name": "Đổi trả hàng và hoàn tiền",
+                "link": "/doitrahangvahoantien",
+                "icon": null
+            },
+            {
+                "id": "5",
+                "name": "Tuyệt chiêu mua sắm",
+                "link": "/tuyetchieumuasam",
+                "icon": null
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Tài khoản",
+        "link": "/taikhoan",
+        "icon": null,
+        "submenu": [
+            {
+                "id": "1",
+                "name": "Quản lý tài khoản",
+                "link": "/quanlytaikhoan",
+                "icon": null
+            },
+            {
+                "id": "2",
+                "name": "Đơn hàng của tôi",
+                "link": "/donhangcuatoi",
+                "icon": null
+            },
+            {
+                "id": "3",
+                "name": "Danh sách yêu thích",
+                "link": "/danhsachyeuthich",
+                "icon": null
+            },
+            {
+                "id": "4",
+                "name": "Nhận xét và đổi trả",
+                "link": "/nhanxetvadoitra",
+                "icon": null
+            },
+            {
+                "id": "5",
+                "name": "Đăng xuất",
+                "link": "/dangxuat",
+                "icon": null
+            }
+        ]
+    }
+
+]

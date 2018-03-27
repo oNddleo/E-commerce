@@ -1,0 +1,31 @@
+[
+    {
+    "idmenu": "1",
+    "menu": "Thiết bị điện tử",
+    "link": "/thietbidientu",
+    "children": [
+        {
+            "idsubmenu": "1",
+            "submenu": "Điện thoại di động",
+            "link": "/dienthoaididong"
+        },
+        {
+            "idsubmenu": "2",
+            "submenu": "Hệ thống giải trí tại gia",
+            "link": "/hethonggiaitritaigia",
+            "children": [
+                {
+                    "idsubmenu": "1",
+                    "submenu": "Dàn âm thanh tại gia",
+                    "link": "/danamthanhtaigia"
+                },
+                {
+                    "idsubmenu": "2",
+                    "submenu": "Dàn karaoke",
+                    "link": "/dakaraoke"
+                }
+            ]
+        }
+    ]
+}
+]
