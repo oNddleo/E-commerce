@@ -56,6 +56,7 @@ a {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
+    text-decoration: none !important;
 }
 
 /* change colours to suit your needs */
@@ -99,4 +100,8 @@ hr {
 
 input, select {
     vertical-align:middle;
+}
+/* Common CSS */
+ul, li{
+    list-style-type: none;
 }

@@ -1,0 +1,21 @@
+.header{
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+}
+.banner{
+    float: right;
+    width: 100%;
+    margin-top: 107px;
+}
+
+.banner > .image-gallery > .image-gallery-content{
+    height: 344px;
+}
+.banner > .image-gallery >.image-gallery-content >.image-gallery-swipe{
+    height: 100%;
+    position: relative;
+}
+.page{
+    background-color: #f5f5f5;
+}
