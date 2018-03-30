@@ -1,0 +1,16 @@
+
+.card-most-popular-title{
+    float: left;
+    font-family: Roboto-Regular;
+    font-size: 22px;
+    color: #424242;
+    width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.card-most-popular-header{
+    background: 0 0;
+    height: 38px;
+    line-height: 38px;
+}

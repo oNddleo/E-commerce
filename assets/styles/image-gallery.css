@@ -32,7 +32,10 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
-
+/*Custom Set max height image gallery library*/
+.image-gallery-image img {
+  max-height: 400px;
+}
 .image-gallery {
   -webkit-user-select: none;
   -moz-user-select: none;
