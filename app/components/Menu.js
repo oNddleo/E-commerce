@@ -36,7 +36,7 @@ export default class Menu extends Component {
                     </div>
                     <div className="col-md-7">
                         <div className="search-box">
-                            <input placeholder="Tìm kiếm trên LIZIDI" />
+                            <input placeholder="Tìm kiếm trên LAZADA" />
                         </div>
                         <div className="search-button">
                             <button><i className="material-icons">search</i></button>
