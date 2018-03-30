@@ -4,7 +4,7 @@ export default class CardMostPopular extends Component {
   render() {
     return (
       <div className="card-most-popular">
-        <div clasName="card-most-popular-header">
+        <div className="card-most-popular-header">
           <h3 className="card-most-popular-title">Tìm kiếm phổ biến</h3>
         </div>
         <div className="Items">
@@ -12,7 +12,7 @@ export default class CardMostPopular extends Component {
             <div className="card-most-popular-left-panel">
                 <a link="/sanpham"></a>
                 <div className="card-most-popular-img">
-                  <img src="/images/ong-kinh-canon"/>
+                  <img src="/images/popular/ong-kinh-canon.jpg"/>
                 </div>
                 <div className="card-most-popular-ovelay">
 

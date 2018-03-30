@@ -4,10 +4,15 @@ export default class HomePage extends Component {
     render() {
         return (
             <div className="page">
-                <CardMostPopular />
-                <div>
-
+                
+                {/* <div className="lift-nav">
+                    <div className=""></div>
+                </div> */}
+                <div className="page-content">
+                    <CardMostPopular />
                 </div>
+                
+                
             </div>
 
         )
