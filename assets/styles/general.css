@@ -18,5 +18,8 @@
 .page{
     background-color: #f5f5f5;
     padding: 0px 50px;
-    margin: 20px 0px;
+
+}
+.page-content{
+    overflow: auto;
 }
