@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "link": "/1",
+        "brandImage": "/images/categories/ugreenB.jpg",
+        "shopImage": "/images/categories/ugreenS.jpg",
+        "nameShop": "UGREEN",
+        "titleShop": "Cửa hàng chính hãng"
+    },
+    {
+        "id": "2",
+        "link": "/2",
+        "brandImage": "/images/categories/ugreenB.jpg",
+        "shopImage": "/images/categories/ugreenS.jpg",
+        "nameShop": "UGREEN",
+        "titleShop": "Cửa hàng chính hãng"
+    },
+    {
+        "id": "3",
+        "link": "/3",
+        "brandImage": "/images/categories/ugreenB.jpg",
+        "shopImage": "/images/categories/ugreenS.jpg",
+        "nameShop": "UGREEN",
+        "titleShop": "Cửa hàng chính hãng"
+    },
+    {
+        "id": "4",
+        "link": "/4",
+        "brandImage": "/images/categories/ugreenB.jpg",
+        "shopImage": "/images/categories/ugreenS.jpg",
+        "nameShop": "UGREEN",
+        "titleShop": "Cửa hàng chính hãng"
+    },
+    {
+        "id": "5",
+        "link": "/5",
+        "brandImage": "/images/categories/ugreenB.jpg",
+        "shopImage": "/images/categories/ugreenS.jpg",
+        "nameShop": "UGREEN",
+        "titleShop": "Cửa hàng chính hãng"
+    },
+    {
+        "id": "6",
+        "link": "/6",
+        "brandImage": "/images/categories/ugreenB.jpg",
+        "shopImage": "/images/categories/ugreenS.jpg",
+        "nameShop": "UGREEN",
+        "titleShop": "Cửa hàng chính hãng"
+    }
+]

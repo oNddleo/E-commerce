@@ -1,0 +1,70 @@
+[
+    {
+        "id" : "1",
+        "link": "/1",
+        "img": "/images/fs/vi-da.jpg",
+        "title": "Bộ ví và thắt lưng nam da thật cá sấu LAKA",
+        "price": "249000",
+        "currency": "đ",
+        "originPrice": "490000",
+        "discount": "49%",
+        "sold": ""
+    },
+    {
+        "id" : "2",
+        "link": "/2",
+        "img": "/images/fs/vi-da.jpg",
+        "title": "Bộ ví và thắt lưng nam da thật cá sấu LAKA",
+        "price": "249000",
+        "currency": "đ",
+        "originPrice": "490000",
+        "discount": "49%",
+        "sold": ""
+    },
+    {
+        "id" : "3",
+        "link": "/3",
+        "img": "/images/fs/vi-da.jpg",
+        "title": "Bộ ví và thắt lưng nam da thật cá sấu LAKA",
+        "price": "249000",
+        "currency": "đ",
+        "originPrice": "490000",
+        "discount": "49%",
+        "sold": ""
+    },
+    {
+        "id" : "4",
+        "link": "/4",
+        "img": "/images/fs/vi-da.jpg",
+        "title": "Bộ ví và thắt lưng nam da thật cá sấu LAKA",
+        "price": "249000",
+        "currency": "đ",
+        "originPrice": "490000",
+        "discount": "49%",
+        "sold": ""
+    },
+    {
+        "id" : "5",
+        "link": "/5",
+        "img": "/images/fs/vi-da.jpg",
+        "title": "Bộ ví và thắt lưng nam da thật cá sấu LAKA",
+        "price": "249000",
+        "currency": "đ",
+        "originPrice": "490000",
+        "discount": "49%",
+        "sold": "Đã bán"
+    },
+    {
+        "id" : "6",
+        "link": "/6",
+        "img": "/images/fs/vi-da.jpg",
+        "title": "Bộ ví và thắt lưng nam da thật cá sấu LAKA",
+        "price": "249000",
+        "currency": "đ",
+        "originPrice": "490000",
+        "discount": "49%",
+        "sold": ""
+    }
+
+    
+]
