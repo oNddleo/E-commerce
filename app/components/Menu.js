@@ -24,7 +24,7 @@ export default class Menu extends Component {
         super(props);
     }
     render() {
-        console.log("json...", menuBar);
+        // console.log("json...", menuBar);
         return (
             <div className="menu">
                 <div className="menu-top">
