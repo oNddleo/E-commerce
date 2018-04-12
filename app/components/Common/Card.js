@@ -90,15 +90,32 @@ export const CardJustForYou = (props) => {
     )
 }
 export const CardCategories = (props) => {
-    return(
-        <a className="card-categories categories-hover align-left" href={props.link}>
-            <div className="card-categories-brand-overlay"></div>
-            <div className="card-categories-brand-img">
-                <img className="image" src={props.img}/>
+    return (
+        <div className="card-categories-li categories-hover align-left">
+            <a className="card-categories-li-content" href={props.link}>
+                <div className="card-categories-image-container">
+                    <img className="image" src={props.image} />
+                </div>
+                <div className="card-categories-name">
+                    <span className="text">{props.name}</span>
+                </div>
+            </a>
+        </div>
+
+    )
+}
+export const CardOfficalStores = (props) => {
+    return (
+        <a className="card-offical-stores-box offical-stores-hover align-left" href={props.link}>
+            <div className="card-offical-stores-brand-overlay"></div>
+            <div className="card-offical-stores-brand-img">
+                <img className="image" src={props.brandImage} />
             </div>
-            <div className="card-categories-shop-img">
-                <img className="image" src={props.img}/>
+            <div className="card-offical-stores-shop-img">
+                <img className="image" src={props.shopImage} />
             </div>
+            <div className="card-offical-stores-h1">{props.nameShop}</div>
+            <p className="card-offical-stores-p">{props.titleShop}</p>
         </a>
     )
 }
