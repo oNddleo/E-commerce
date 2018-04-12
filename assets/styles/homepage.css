@@ -4,25 +4,10 @@
 .align-left{
     float: left;
 }
-.card-most-popular-content{
+.card-most-popular-content, .card-fs-content{
     display: block;
     clear: both;
-    margin: 24px 0;
-}
-.card-most-popular-content > .card-most-popular-header{
-    background: 0 0;
-    height: 38px;
-    line-height: 38px;
-}
-.card-most-popular-content > .card-most-popular-title{
-    float: left;
-    font-family: Roboto-Regular;
-    font-size: 22px;
-    color: #424242;
-    width: 220px;
     overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
 }
 .list-card-most-popular-left-panel{
     width: 20%;
@@ -113,16 +98,7 @@
     height: 144px;
     margin: 0 auto;
 }
-.card-most-popular-header > .card-most-popular-title{
-    float: left;
-    font-family: Roboto-Regular;
-    font-size: 22px;
-    color: #424242;
-    width: 220px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
+
 .list-card-most-popular-left-panel .card-most-popular-overlay{
     background-color: #278eb0;
 }
@@ -146,3 +122,244 @@
     transform:all .3s ease-in-out;
     position:relative;
 }
+
+/*
+* Deal Chớp nhoáng 
+*/
+.card-most-popular-content > .card-most-popular-title, .card-fs-header > .card-fs-title{
+    float: left;
+    font-family: Roboto-Regular;
+    font-size: 22px;
+    color: #424242;
+    width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.card-fs-content{
+    margin-bottom: 12px;
+    background-color: #fff;
+    height: 375px;
+}
+.card-fs-content-header{
+    overflow: hidden;
+    border-bottom: #d5d5d5 1px solid;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+.card-fs-content-header-left-status .status-text {
+    font-weight: 500;
+    font-size: 14px;
+    color: #f57224;
+}
+.card-fs-content-header-left-status{
+    margin-left: 20px;
+}
+.card-fs-content-header-left-timer{
+    overflow: hidden;
+    margin-left: 65px;
+}
+.pull-left{
+    float: left;
+}
+.card-fs-content-header-left-timer .fs-timer-text {
+    font-size: 14px;
+    margin-right: 10px;
+    color: #202020;
+}
+.card-fs-content-header-left-timer .fs-timer-count {
+    border-radius: 2px;
+    font-weight: 500;
+    margin: 12px 6px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #d3232a;
+    text-align: center;
+    width: 40px;
+    height: 35px;
+    line-height: 35px;
+}
+.card-fs-content-button {
+    font-weight: 500;
+    font-size: 14px;
+    float: right;
+    display: block;
+    border: 1px solid #f57224;
+    border-radius: 2px;
+    color: #f57224;
+    height: 35px;
+    background-color: #fff;
+    line-height: 35px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 11px;
+    margin-top: 13px;
+}
+/*Card product content*/
+.card-fs-content-body a{
+    color: #000;
+}
+.card-content-body{
+    height: 290px;
+    width: 188px;
+    float: left;
+    margin-right: 12px;
+    position: relative;
+}
+.card-content-body .fs-card-img{
+    width: 188px;
+    height: 188px;
+    margin-bottom: 4px;
+}
+.card-content-body .fs-card-text{
+    margin: 0 8px;
+}
+.card-content-body > .fs-card-text > .fs-card-title{
+    height: 36px;
+    line-height: 18px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+.card-content-body > .fs-card-text > .fs-card-price{
+    margin-bottom: 4px;
+    font-size: 18px;
+    color: #f57224;
+    letter-spacing: -.56px;
+    line-height: 22px;
+    height: 22px;
+}
+.card-content-body > .fs-card-text > .fs-card-origin-price{
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 4px;
+}
+.card-content-body > .fs-card-text > .fs-card-origin-price >.fs-origin-price{
+    color: #9e9e9e;
+    text-decoration: line-through;
+}
+.card-content-body > .fs-card-text > .fs-card-origin-price >.fs-discount{
+    color: #212121;
+    margin-left: 4px;
+}
+.card-content-body > .fs-card-text > .fs-card-sold{
+    height: 16px;
+    margin-bottom: 7px;
+    color: red;
+    font-size: 12px;
+}
+.card-content-body:last-child{
+    margin-right: 0px;
+}
+.fs-hover:hover {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
+    -webkit-transform: all .3s ease-in-out;
+    -ms-transform: all .3s ease-in-out;
+    transform: all .3s ease-in-out;
+    position: relative;
+    border: 1px solid darkseagreen;
+}
+/*Just for you*/
+.card-jfy-item-wrapper{
+    vertical-align: top;
+    width: 189px;
+    margin-right: 9px;
+    min-height: 189px;
+    background: #fff;
+    height: 100%;
+}
+.inline {
+    display: inline-block;
+}
+.card-jfy-li-content{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.card-jfy-item{
+    width: 100%;
+}
+.card-jfy-item-image {
+    width: 189px;
+    height: 189px;
+}
+.card-jfy-item-image .image{
+    width: 100%;
+    height: 100%;
+}
+.card-jfy-item-desc{
+    padding: 4px 8px 12px;
+    background: #fff;
+}
+.card-jfy-segment {
+    display: block;
+    color: #a90b26;
+    font-size: 12px;
+    line-height: 12px;
+    min-height: 12px;
+    margin: 2px 0;
+}
+.card-jfy-content .card-jfy-title {
+    width: 100%;
+    font-size: 14px;
+    height: 36px;
+    line-height: 18px;
+    color: #212121;
+    white-space: pre-wrap;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.card-jfy-footer {
+    margin-top: 8px;
+    height: 14px;
+    clear: both;
+}
+.card-jfy-installment-text{
+    clear: both;
+    font-size: 12px;
+    line-height: 14px;
+    color: #9e9e9e;
+    height: 14px;
+}
+.card-jfy-item .card-jfy-price {
+    margin-top: 4px;
+}
+.card-jfy-item .price-first-line {
+    line-height: 22px;
+    font-size: 18px;
+    color: #f57224;
+}
+.card-jfy-item .price-second-line {
+    margin-top: 4px;
+    margin-right: 4px;
+    line-height: 14px;
+    height: 14px;
+    color: #9e9e9e;
+    font-size: 12px;
+}
+.price-second-line .discount {
+    margin-right: 4px;
+    color: #212121;
+    opacity: .8;
+    margin-left: 4px;
+}
+.jfy-hover:hover {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
+    -webkit-transform: all .3s ease-in-out;
+    -ms-transform: all .3s ease-in-out;
+    transform: all .3s ease-in-out;
+    position: relative;
+}
+.card-jfy-item-wrapper:nth-child(6n) {
+    margin-right: 0;
+}
+/*
+* Categories
+**/
+
