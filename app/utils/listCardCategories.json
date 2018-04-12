@@ -2,49 +2,98 @@
     {
         "id": "1",
         "link": "/1",
-        "brandImage": "/images/categories/ugreenB.jpg",
-        "shopImage": "/images/categories/ugreenS.jpg",
-        "nameShop": "UGREEN",
-        "titleShop": "Cửa hàng chính hãng"
+        "image": "/images/categories/tv-led.jpg",
+        "name": "TV-LED"
     },
     {
         "id": "2",
         "link": "/2",
-        "brandImage": "/images/categories/ugreenB.jpg",
-        "shopImage": "/images/categories/ugreenS.jpg",
-        "nameShop": "UGREEN",
-        "titleShop": "Cửa hàng chính hãng"
+        "image": "/images/categories/tv-led.jpg",
+        "name": "TV-LED"
     },
     {
         "id": "3",
         "link": "/3",
-        "brandImage": "/images/categories/ugreenB.jpg",
-        "shopImage": "/images/categories/ugreenS.jpg",
-        "nameShop": "UGREEN",
-        "titleShop": "Cửa hàng chính hãng"
+        "image": "/images/categories/tv-led.jpg",
+        "name": "TV-LED"
     },
     {
         "id": "4",
         "link": "/4",
-        "brandImage": "/images/categories/ugreenB.jpg",
-        "shopImage": "/images/categories/ugreenS.jpg",
-        "nameShop": "UGREEN",
-        "titleShop": "Cửa hàng chính hãng"
+        "image": "/images/categories/tv-led.jpg",
+        "name": "TV-LED"
     },
     {
         "id": "5",
         "link": "/5",
-        "brandImage": "/images/categories/ugreenB.jpg",
-        "shopImage": "/images/categories/ugreenS.jpg",
-        "nameShop": "UGREEN",
-        "titleShop": "Cửa hàng chính hãng"
+        "image": "/images/categories/tv-led.jpg",
+        "name": "TV-LED"
     },
     {
         "id": "6",
         "link": "/6",
-        "brandImage": "/images/categories/ugreenB.jpg",
-        "shopImage": "/images/categories/ugreenS.jpg",
-        "nameShop": "UGREEN",
-        "titleShop": "Cửa hàng chính hãng"
+        "image": "/images/categories/tv-led.jpg",
+        "name": "TV-LED"
+    },
+    {
+        "id": "7",
+        "link": "/7",
+        "image": "/images/categories/tv-led.jpg",
+        "name": "TV-LED"
+    },
+    {
+        "id": "8",
+        "link": "/8",
+        "image": "/images/categories/tv-led.jpg",
+        "name": "TV-LED"
+    },
+    {
+        "id": "9",
+        "link": "/9",
+        "image": "/images/categories/tv-led.jpg",
+        "name": "TV-LED"
+    },
+    {
+        "id": "10",
+        "link": "/10",
+        "image": "/images/categories/tv-led.jpg",
+        "name": "TV-LED"
+    },
+    {
+        "id": "11",
+        "link": "/11",
+        "image": "/images/categories/tv-led.jpg",
+        "name": "TV-LED"
+    },
+    {
+        "id": "12",
+        "link": "/12",
+        "image": "/images/categories/tv-led.jpg",
+        "name": "TV-LED"
+    },
+    {
+        "id": "13",
+        "link": "/13",
+        "image": "/images/categories/tv-led.jpg",
+        "name": "TV-LED"
+    },
+    {
+        "id": "14",
+        "link": "/14",
+        "image": "/images/categories/tv-led.jpg",
+        "name": "TV-LED"
+    },
+    {
+        "id": "15",
+        "link": "/15",
+        "image": "/images/categories/tv-led.jpg",
+        "name": "TV-LED"
+    },
+    {
+        "id": "16",
+        "link": "/16",
+        "image": "/images/categories/tv-led.jpg",
+        "name": "TV-LED"
     }
+
 ]
