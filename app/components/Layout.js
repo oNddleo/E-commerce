@@ -6,9 +6,9 @@ export default class Layout extends Component {
   render() {
     return (
       <div className="container">
-        <div className="header">
+        {/* <div className="header">
           <Menu />
-        </div>
+        </div> */}
         <div className="content">
           <Banner />
           <HomePage />
