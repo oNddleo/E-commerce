@@ -1,9 +1,7 @@
 /*
     CSS list most popular 
 */
-.align-left{
-    float: left;
-}
+
 .card-most-popular-content, .card-fs-content{
     display: block;
     clear: both;
@@ -273,9 +271,6 @@
     background: #fff;
     height: 100%;
 }
-.inline {
-    display: inline-block;
-}
 .card-jfy-li-content{
     height: 100%;
     width: 100%;
@@ -360,6 +355,154 @@
     margin-right: 0;
 }
 /*
-* Categories
+* Offical Stores
 **/
+.card-offical-stores-content-body{
+    min-height: 270px;
+    background-color: #f5f5f5;
+}
+.card-offical-stores{
+    display: block;
+    clear: both;
+    margin: 24px 0;
+}
+.card-offical-stores-box{
+    display: block;
+    width: 188px;
+    height: 270px;
+    background-color: #fff;
+    margin-right: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+.card-offical-stores-box:nth-child(6n) {
+    margin-right: 0;
+}
+.card-offical-stores-brand-overlay {
+    width: 188px;
+    height: 36px;
+    top: 152px;
+    left: 0;
+    position: absolute;
+    opacity: .25;
+    background: rgba(0,0,0,.04);
+    background: -webkit-linear-gradient(top,transparent 0,rgba(0,0,0,.5) 100%);
+    background: linear-gradient(to bottom,transparent 0,rgba(0,0,0,.5) 100%);
+}
+.card-offical-stores-brand-img {
+    width: 188px;
+    height: 188px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+}
+.card-offical-stores-brand-img .image {
+    width: 100%;
+}
+.card-offical-stores-shop-img {
+    box-shadow: 0 0 4px 0 rgba(0,0,0,.25);
+    width: 52px;
+    height: 52px;
+    background-color: #fff;
+    padding: 4px;
+    position: relative;
+    margin: -25px auto 0;
+    overflow: hidden;
+}
+.card-offical-stores-shop-img .image {
+    width: 100%;
+}
 
+.card-offical-stores-h1, .card-offical-stores-p {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.card-offical-stores-h1 {
+    font-size: 14px;
+    color: #212121;
+    line-height: 18px;
+    margin: 8px 8px 4px;
+}
+.card-offical-stores-p {
+    font-size: 12px;
+    line-height: 14px;
+    color: #9e9e9e;
+    margin: 0 8px;
+}
+.card-shop-all{
+    font-family: Roboto-Medium;
+    float: right;
+    margin-right: 0;
+    font-size: 14px;
+    color: #1a9cb7;
+}
+/*Set position middle text and material icon*/
+.card-shop-all .text, .card-shop-all i{
+    vertical-align: middle;
+}
+.offical-stores-hover:hover{
+    box-shadow:0 2px 4px 0 rgba(0,0,0,.25);
+    -webkit-transform:all .3s ease-in-out;
+    -ms-transform:all .3s ease-in-out;
+    transform:all .3s ease-in-out;
+    position:relative;
+}
+/*
+* Categories
+*/
+
+.card-categories-ul {
+    width: 100%;
+    background-color: #fff;
+    min-height: 297px;
+}
+.card-categories-li {
+    width: 12.5%;
+    height: 148.5px;
+    border-right: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    background-color: #fff;
+}
+.card-categories-li-content {
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding-top: 16px;
+}
+.card-categories-image-container {
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+}
+.card-categories-image-container .image {
+    width: 100%;
+    height: 100%;
+}
+.card-categories-name {
+    text-align: center;
+    margin-top: 10px;
+}
+.card-categories-name .text {
+    margin: 8px 12px 0;
+    font-size: 14px;
+    color: #212121;
+    line-height: 18px;
+    height: 36px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.card-categories-li:nth-child(8n) {
+    border-right: 0;
+}
+.categories-hover:hover{
+    box-shadow:0 2px 4px 0 rgba(0,0,0,.25);
+    -webkit-transform:all .3s ease-in-out;
+    -ms-transform:all .3s ease-in-out;
+    transform:all .3s ease-in-out;
+    position:relative;
+}
