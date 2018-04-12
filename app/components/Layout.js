@@ -14,7 +14,7 @@ export default class Layout extends Component {
           <HomePage />
         </div>
         <div className="footer">
-
+          
         </div>
       </div>
     )
