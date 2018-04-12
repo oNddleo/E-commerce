@@ -6,9 +6,9 @@ export default class ListCategories extends Component {
     render() {
         return (
             <div className="card-categories">
-                <Header className="categories" header='Gian hàng chính hãng' />
+                <Header className="categories" header='Danh mục ngành hàng'/>
                 <div className="card-categories-content">
-                    <div className="card-categories-content-body">
+                    <div className="card-categories-ul">
                         {listCardCategories.map(item =>
                             <CardCategories
                                 {...item}
